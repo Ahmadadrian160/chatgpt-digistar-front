@@ -12,6 +12,8 @@ const Chat = () => {
         return `user-session-${randomId}`;
     };
 
+    //Ini adalah tambahan
+
     // Fungsi untuk mengambil riwayat percakapan berdasarkan session_id
     const getChatHistory = async (sessionId: string) => {
         try {
